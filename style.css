@@ -1,0 +1,31 @@
+.gradient-background {
+    background: linear-gradient(300deg, #cee782,#bdf4f6, #7e92d5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .skil{
+    background: linear-gradient(300deg, #cee782,#bdf4f6, #7e92d5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+   
+  }
+  .pet{
+    background: linear-gradient(300deg, #cee782,#bdf4f6, #7e92d5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  
+  
